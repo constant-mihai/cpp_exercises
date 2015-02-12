@@ -1,0 +1,6 @@
+
+
+
+        === Info ===
+
+    Think carefully about copying behaviour in resource-managing classes.

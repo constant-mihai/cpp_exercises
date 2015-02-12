@@ -1,0 +1,7 @@
+
+
+
+        === Info on files from this folder ===
+
+    These are all examples of good coding practices from Scott Meyers:
+    - Effective C++: 55 Specific Ways to Improve Your Programs and Designs, Third Edition

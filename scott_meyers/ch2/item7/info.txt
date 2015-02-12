@@ -1,0 +1,6 @@
+
+
+
+        === Scott Meyers, Effective C++ ===
+
+    Declare destructors virtual in polymorphic base classes.

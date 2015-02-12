@@ -1,0 +1,6 @@
+
+
+
+        === Info ===
+
+    Store new'ed objects in smart pointers in standalone statements

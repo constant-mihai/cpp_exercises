@@ -1,0 +1,6 @@
+
+
+
+        === Info ===
+
+    Provide access to raw resources in resource managing class

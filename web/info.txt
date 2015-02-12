@@ -1,0 +1,8 @@
+    
+
+        === Info on files in this folder ===
+
+    An assembly of C++ tutorials from different sites:
+    - http://www.tutorialspoint.com
+    - http://www.cplusplus.com
+    - http://www.parashift.com
