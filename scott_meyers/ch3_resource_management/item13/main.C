@@ -44,6 +44,7 @@ class Test_class {
             p->print_tmp();
         }
 
+
     private:
         int tmp;
 };

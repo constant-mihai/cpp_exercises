@@ -1,0 +1,14 @@
+Strive for exeption saftey code.
+Exception-safe functions leak no resources and allow no data structures to become corrupted, 
+even when exceptions are thrown. 
+Such functions offer the basic, 
+strong, or nothrow guarantees.
+
+The strong guarantee can often 
+be implemented via copy-and-swap,
+ but the strong guarantee is not 
+practical for all functions.
+
+A function can usually offer a 
+guarantee no stronger than the
+weakest guarantee of the functions it calls.

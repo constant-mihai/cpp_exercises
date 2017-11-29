@@ -72,6 +72,31 @@ class Output {
         void print(int i) { cout << i << endl; };
 };
 
+class Futility
+{
+    public:
+
+        Futility()
+        {};
+
+        virtual ~Futility()
+        {
+            cout << "Futility" << endl;
+        }
+};
+
+class Hope: public Futility 
+{
+    public:
+        Hope()
+        {};
+
+        virtual ~Hope()
+        {
+            cout << "Hope" << endl;
+        }
+};
+
 
 // Multiple Inheritance
 // Derived classes are marked as public.
@@ -134,6 +159,11 @@ int main(int argc, char** argv)
 
     Multiple_Rectangle multiple_rectangle(4,5);
     multiple_rectangle.print(multiple_rectangle.area());    
+
+    Hope *h = new Hope(); // Hope deleted ... soon.
+    Futility *f = static_cast<Futility*> (h); // First cast to Futility.
+    delete f;             // Deletes Hope part of Futility only if Futility destructor is virtual.
+                          // So, yeah! Virtual destructors, kinda important.
 
     return 0;
 }

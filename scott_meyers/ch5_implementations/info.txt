@@ -1,0 +1,14 @@
+Minimize casting.
+
+The rules of C++ are designed to guarantee that type errors are impossible. 
+In theory, if your program compiles cleanly, it's not trying to perform any 
+unsafe or nonsensical operations on any objects. 
+This is a valuable guarantee. You don't want to forgo it lightly.
+
+Unfortunately, casts subvert the type system. 
+That can lead to all kinds of trouble, some easy to recognize, some extraordinarily subtle. 
+If you're coming to C++ from C, Java, or C#, take note,
+because casting in those languages is more necessary and less dangerous than in C++.
+
+But C++ is not C. It's not Java. It's not C#. 
+In this language, casting is a feature you want to approach with great respect.

@@ -1,7 +1,0 @@
-
-
-
-        === Info on the files from this folder ===
-
-    These are all exercises or examples from Stroustrup:
-    - C++ Programming Language
