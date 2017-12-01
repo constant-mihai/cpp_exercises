@@ -1,32 +1,16 @@
-# Prerequisites
-*.d
+# Ignore everything
+*
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+# Unignore directories
+!*/
 
-# Precompiled Headers
-*.gch
-*.pch
+# Unignore files with [ch] extensions
+!*.[ChH]
+!*.cpp
+!*.CPP
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
+# Unignore text files
+!*.txt
 
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
+# Unignore Makefiles
+!Makefile
