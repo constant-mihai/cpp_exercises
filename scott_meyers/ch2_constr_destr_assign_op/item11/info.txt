@@ -1,0 +1,7 @@
+
+
+
+        === Scott Meyers, Effective C++ ===
+
+        10. Have Assignment operators return a reference to *this
+        11.Handle Assignement to self in operator=

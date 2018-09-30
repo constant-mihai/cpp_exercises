@@ -1,0 +1,2 @@
+
+Know what functions C++ silently writes and calls.
